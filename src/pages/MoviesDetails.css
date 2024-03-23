@@ -1,0 +1,93 @@
+.movie-container {
+    display: flex;
+
+ 
+ 
+}
+
+
+
+.image-container {
+    
+    margin-top: 10px;
+    border-radius: 10px; /* Apply border radius */
+   
+}
+
+.movie-image {
+   width: 430px;
+    border-radius: 10px; /* Apply border radius */
+   margin: 20px;
+    height: 570px;
+    margin-bottom: 20px;
+}
+
+.details-container{
+    margin-top: 10px;
+    margin-left: 30px;
+   color: white;
+    
+}
+
+.title{
+    font-size: 40px;
+
+}
+.overview{
+    margin-top: 20px;
+    font-size: 33px;
+}
+
+.description{
+margin-top: 20px;
+    font-size: 20px;
+}
+
+.footer{
+
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.release-date-span{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+
+.release-date{
+margin-top: 20px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.vote-average{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.release-date{margin-top: 20px;
+    font-size: 25px;}
+
+.vote-average{margin-top: 20px;
+    font-size: 25px;}
+
+.vote-average{
+
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+@media screen and (max-width:780px) {
+    
+
+.movie-container {
+
+flex-wrap: wrap;
+}
+
+.movie-image {
+    width: 350px;}
+
+
+}
